@@ -18,5 +18,5 @@ fn main() {
         ..user1
     };
 
-    println!("Hi {}", user1.email)
+    println!("Hi {}", user1.email);
 }
