@@ -13,5 +13,10 @@ fn main() {
 
     user1.email = String::from("anotheremail@example.com");
 
-    println!("Hi ${}", user1.email)
+    let user2 = User {
+        email: String::from("another@example.com"),
+        ..user1
+    };
+
+    println!("Hi {}", user1.email)
 }
